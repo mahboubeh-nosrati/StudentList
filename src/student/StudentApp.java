@@ -23,6 +23,7 @@ public class StudentApp {
         students.add(new Student("S789", "Charlie Brown", 76.2));
         students.add(new Student("S101", "Diana Prince", 98.5));
         students.add(new Student("S202", "Evan Wright", 82.0));
+        students.add(new Student("S209", "Evan Forrey", 91.5));
 
         // Print all students
         System.out.println("--- Student List ---");
