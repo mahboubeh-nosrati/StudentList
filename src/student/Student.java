@@ -10,7 +10,7 @@ package student;
  */
 public class Student {
 
-  private String studentId;
+  private final String studentId;
     private String name;
     private double grade; // Holds the student's score
 
