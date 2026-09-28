@@ -25,30 +25,20 @@ public class Student {
 
     // Getters 
     public String getStudentId() {
-        return this.studentId;
+        return studentId;
     }
 
     public String getName() {
-        return this.name;
+        return name;
     }
 
     public double getGrade() {
-        return this.grade;
+        return grade;
     }
-
-    public void setProgram(String program) {
-        this.program = program;
-    }
-
-    public String getProgram() {
-        return program;
-    }
-    
-    
     
    
     @Override
     public String toString() {
-        return this.name + " (ID: " + this.studentId + ") - Grade: " + this.grade;
+        return name + " (ID: " + studentId + ") - Grade: " + grade;
     }
 }
