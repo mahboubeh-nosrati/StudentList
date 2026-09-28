@@ -24,6 +24,9 @@ public class StudentApp {
         students[3]=new Student("S101", "Diana Prince", 98.5);
         students[4]=new Student("S202", "Evan Wright", 82.0);
         students[5]=new Student("S209", "Evan Forrey", 91.5);
+        student[0].setTeacher("Bob");
+         student[1].setTeacher("larry");
+         student[2].setTeacher("David");
 
         // Print all students
         System.out.println("--- Student List ---");
