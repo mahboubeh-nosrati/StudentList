@@ -7,6 +7,7 @@ package student;
 /**
  *
  * @author mahbo
+ * @author Mahboubeh 991848953
  */
 public class Student {
 
@@ -14,6 +15,15 @@ public class Student {
     private String name;
     private double grade; // Holds the student's score
     private String program;
+    private String teacher;
+
+    public void setTeacher(String teacher) {
+        this.teacher = teacher;
+    }
+
+    public String getTeacher() {
+        return teacher;
+    }
 
     // Constructor
     public Student(String studentId  , String name, double grade) {
