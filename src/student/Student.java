@@ -25,13 +25,13 @@ public class Student {
     public void setProgram(String program) {
         this.program = program;
     }
-
+   
     public String getProgram() {
         return program;
     }
     
 
-    // Getters 
+    // Getters
     public String getStudentId() {
         return studentId;
     }
@@ -43,7 +43,7 @@ public class Student {
     public double getGrade() {
         return grade;
     }
-    
+
    
     @Override
     public String toString() {
