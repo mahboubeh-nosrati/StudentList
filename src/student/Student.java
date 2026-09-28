@@ -13,6 +13,7 @@ public class Student {
   private final String studentId;
     private String name;
     private double grade; // Holds the student's score
+    private String program;
 
     // Constructor
     public Student(String studentId  , String name, double grade) {
@@ -20,8 +21,9 @@ public class Student {
         this.name = name;
         this.grade = grade;
     }
+    
 
-    // Getters
+    // Getters 
     public String getStudentId() {
         return studentId;
     }
@@ -33,7 +35,8 @@ public class Student {
     public double getGrade() {
         return grade;
     }
-
+    
+   
     @Override
     public String toString() {
         return name + " (ID: " + studentId + ") - Grade: " + grade;
