@@ -14,16 +14,16 @@ import java.util.List;
 public class StudentApp {
     public static void main(String[] args) {
         
-        // 1. Create a list to store students
-        List<Student> students = new ArrayList<>();
+        // 1. Create a list to store student
+        Student[] students=new Student[10];
 
         // 2. Add sample students to the list
-        students.add(new Student("S123", "Alice Smith", 88.5));
-        students.add(new Student("S456", "Bob Jones", 94.0));
-        students.add(new Student("S789", "Charlie Brown", 76.2));
-        students.add(new Student("S101", "Diana Prince", 98.5));
-        students.add(new Student("S202", "Evan Wright", 82.0));
-        students.add(new Student("S209", "Evan Forrey", 91.5));
+        students.append(new Student("S123", "Alice Smith", 88.5));
+        students.append(new Student("S456", "Bob Jones", 94.0));
+        students.append(new Student("S789", "Charlie Brown", 76.2));
+        students.append(new Student("S101", "Diana Prince", 98.5));
+        students.append(new Student("S202", "Evan Wright", 82.0));
+        students.append(new Student("S209", "Evan Forrey", 91.5));
 
         // Print all students
         System.out.println("--- Student List ---");
