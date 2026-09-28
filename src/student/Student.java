@@ -21,6 +21,14 @@ public class Student {
         this.name = name;
         this.grade = grade;
     }
+
+    public void setProgram(String program) {
+        this.program = program;
+    }
+
+    public String getProgram() {
+        return program;
+    }
     
 
     // Getters 
